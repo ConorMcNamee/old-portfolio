@@ -1,8 +1,19 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+import { ThemeProvider } from 'next-themes';
 
-export default MyApp
+import Navbar from '../components/Navbar';
+import Layout from '../components/Layout/Layout';
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <ThemeProvider enableSystem={true} attribute="class">
+
+      <Navbar /> 
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </ThemeProvider>
+  );
+}
