@@ -19,7 +19,7 @@ export default function Index() {
       </Head>
 
       <Sidebar />
-      <section className='flex flex-col'>
+      <section className=''>
         <Home />
         <About />
         <Skills />

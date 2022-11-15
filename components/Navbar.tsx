@@ -29,14 +29,18 @@ export default function  Navbar() {
         }
 
     return (
-        <nav className="absolute w-full h-24 z-[10000] margin">
+        <nav className="fixed bg-theme dark:bg-theme-dark w-full h-24 z-[10000] md:fixed">
             <section className="flex w-full h-full p-5">
-                <div className="p-5 flex h-full items-center -z-500">
+                <div className="p-5 flex h-full items-center">
                         {renderThemeChanger()}
                 </div>
 
-                <section className="flex flex-col justify-center items-center w-full h-full">
-                    <ul className="hidden md:flex p-5">
+                <div className="">
+
+                </div>
+
+                <section className="flex flex-col justify-center items-center">
+                    <ul className="hidden lg:flex p-5">
                         <Link href='/'>
                             <li className="px-5 ml-10 text-xl hover:border-b">Home</li>
                         </Link>
