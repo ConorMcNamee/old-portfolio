@@ -6,6 +6,8 @@ import { ThemeProvider } from 'next-themes';
 import Navbar from '../components/Navbar';
 import Layout from '../components/Layout/Layout';
 
+import { Analytics } from '@vercel/analytics/react';
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
@@ -14,6 +16,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+
+      <Analytics />
     </ThemeProvider>
   );
 }
