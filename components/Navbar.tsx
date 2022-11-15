@@ -7,24 +7,29 @@ export default function  Navbar() {
 
 
         const {systemTheme, theme, setTheme} = useTheme()
+        const [mounted, setMounted] = useState(false);
+
+        useEffect(() => {
+            setMounted(true);
+        }, []);
     
-        function renderThemeChanger() {
-            //if(!mounted) return null;
+        const renderThemeChanger = () => {
+            if(!mounted) return null;
             const currentTheme = theme === 'system' ? systemTheme : theme;
     
             if(currentTheme === 'dark') {
                 return (
-                    <MoonIcon className="w-7 h-7" role="button" onClick={() => setTheme('light')} />
+                    <SunIcon className="w-7 h-7" role="button" onClick={() => setTheme('light')} />
                 )
             }else{
                 return (
-                    <SunIcon className="w-7 h-7 " role="button" onClick={() => setTheme('dark')} />
+                    <MoonIcon className="w-7 h-7 " role="button" onClick={() => setTheme('dark')} />
                 )
             }
         }
 
     return (
-        <nav className="fixed w-full h-24 z-10 margin">
+        <nav className="absolute w-full h-24 z-[10000] margin">
             <section className="flex w-full h-full p-5">
                 <div className="p-5 flex h-full items-center -z-500">
                         {renderThemeChanger()}
@@ -53,7 +58,7 @@ export default function  Navbar() {
                         </Link>
                     </ul>
 
-                    <hr className="flex border-1 opacity-25 w-[25%]" />
+                    <hr className="hidden border-1 opacity-25 w-[25%] md:flex" />
                 </section>
 
             </section>          

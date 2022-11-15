@@ -3,8 +3,9 @@ import SkillsCard from "./SkillsCard";
 export default function  Skills() {
 
     return (
-        <div id="skills" className="flex w-screen h-screen justify-center items-center">
-            <ul className="flex flex-wrap wrap flex-col w-[50%]">
+        <div id="skills" className="flex justify-center flex-col items-center md:w-screen md:h-screen">
+            <h1 className="text-2xl">Skills</h1>
+            <ul className="flex flex-wrap wrap md:flex-col md:w-[50%]">
                 <div className="flex flex-row flex-wrap justify-center">
                     <SkillsCard title="HTML" img={'/html.webp'} />
                     <SkillsCard title="CSS" img={'/css.webp'}/>

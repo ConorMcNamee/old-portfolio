@@ -4,10 +4,10 @@ export default function  About() {
 
     return (
         <section id="about" className="flex w-screen h-screen justify-center items-center">
-            <div className='flex flex-col text-center w-[50%]'>
-                <h3 className="text-4xl p-5">About</h3>
+            <div className='flex flex-col text-center md:w-[50%] mt-10'>
+                <h3 className="text-4xl m-5">About</h3>
                 <hr className="boreder-2 opacity-25 w-[50%] self-center" />
-                <div className="text-xl p-5">
+                <div className="text-xl m-5">
                     
                     <p className="">
                         I am a 20 Year old Full Stack Developer from U.K

@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function  Home() {
 
     return (
-        <section id="home" className="flex h-screen w-screen items-center">
-            <div className="flex flex-row w-[100%] justify-evenly">
-                <header className="h-max flex flex-col ">
+        <section id="home" className="flex h-screen w-screen items-center text-center md:text-left">
+            <div className="flex flex-col w-[100%] sm:justify-evenly sm:flex-row">
+                <header className="h-max flex flex-col">
                     <h2 className="text-5xl p-5">Hello, I&#39;m Conor</h2>
                     <div className="text-2xl leading-loose">
-                        <hr className="boreder-2 opacity-25" />
+                        <hr className="border-1 opacity-25" />
                         <h1>I am a Freelance <a className="bg-gradient-to-r text-[#517EE1] from-theme-gradientFrom to-theme-gradientTo bg-clip-text">Full Stack Web</a> Developer</h1>
                         <p>React, Django, Tailwind CSS, SQL, Cloud Hosting</p>
                         <p>Helping your business Save and Make Money</p>
@@ -21,10 +21,10 @@ export default function  Home() {
                 <div id="profile-picture" className="flex border-l-1 border- px-5">
                     <Image
                         className="drop-shadow-3xl"
-                        src={"/me.jpg"}
+                        src={"/me2.jpg"}
                         alt={"Freelance Full Stack Developer"}
-                        height={480}
-                        width={400}
+                        height={400}
+                        width={350}
                     />
                 </div>
             </div>
