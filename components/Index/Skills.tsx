@@ -4,7 +4,7 @@ import SkillsCard from "./SkillsCard";
 export default function  Skills() {
 
     return (
-        <div id="skills" className="flex justify-center flex-col items-center md:w-screen md:h-screen m-5 md:m-0">
+        <div id="skills" className="flex justify-center flex-col items-center md:w-screen md:h-screen mt-5 md:m-0">
             <h1 className="text-2xl">Skills</h1>
             <ul className="flex flex-wrap wrap md:flex-col md:w-[50%]">
                 <div className="flex flex-row flex-wrap justify-center">

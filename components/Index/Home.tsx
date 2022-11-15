@@ -24,7 +24,7 @@ export default function  Home() {
                         src={"/me2.jpg"}
                         alt={"Freelance Full Stack Developer"}
                         height={400}
-                        width={350}
+                        width={400}
                     />
                 </div>
             </div>
