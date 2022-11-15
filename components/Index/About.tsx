@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function  About() {
 
     return (
-        <section id="about" className="flex w-screen h-screen justify-center items-center ">
+        <section id="about" className="flex w-screen h-screen justify-center items-center m-5 md:m-0">
             <div className='flex flex-col text-center md:w-[50%] mt-10'>
                 <h3 className="text-4xl m-5">About</h3>
                 <hr className="boreder-2 opacity-25 w-[50%] self-center" />
