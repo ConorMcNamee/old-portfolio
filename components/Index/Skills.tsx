@@ -1,5 +1,7 @@
 import SkillsCard from "./SkillsCard"; 
 
+import { Bars2Icon } from "@heroicons/react/24/solid";
+
 export default function  Skills() {
 
     return (
@@ -17,6 +19,8 @@ export default function  Skills() {
                     <SkillsCard title="SEO" img={'/google.png'} />
                 </div>
             </ul>
+
+            <Bars2Icon className=""></Bars2Icon>
         </div>
     );
 }
