@@ -5,6 +5,8 @@ import { useState, useEffect } from "react";
 
 import { Bars3Icon } from "@heroicons/react/24/solid";
 
+import { motion } from "framer-motion";
+
 export default function  Navbar() {
 
 
@@ -75,7 +77,9 @@ export default function  Navbar() {
             
                 {
                 dropdown? (
-                    <section className="absolute w-screen h-screen bg-theme items-center">
+                    <motion.section className="absolute w-screen h-screen bg-theme items-center dark:bg-theme-dark"
+                        animate={{opacity: 1, transition: { duration: .5}}} initial={{ opacity:0}}
+                    >
                         <ul className="flex flex-col w-screen h-screen text-center">
                         <Link href='/'>
                             <li onClick={() => setDropdown(false)} className="text-xl p-5">Home</li>
@@ -98,7 +102,7 @@ export default function  Navbar() {
                         </Link>
 
                     </ul>
-                    </section>
+                    </motion.section>
                     ): null
                 }       
         </nav>

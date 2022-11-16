@@ -7,7 +7,7 @@ export default function  About() {
             <div className='flex flex-col text-center md:w-[50%] mt-10'>
                 <h3 className="text-4xl m-5">About</h3>
                 <hr className="boreder-2 opacity-25 w-[50%] self-center" />
-                <div className="text-xl mt-5">
+                <div className="text-xl m-5">
                     
                     <p className="">
                         I am a 20 Year old Full Stack Developer from U.K

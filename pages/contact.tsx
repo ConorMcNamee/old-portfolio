@@ -17,7 +17,7 @@ export default function Contact() {
 
             <section className="text-2xl mt-5">
                 <h1>Drop me and Email or follow me on my socials!</h1>
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNrcxCtVXGkjskcMWwzvBbSqrSksbhZhGkKXlrcxCgGstFBLfWqkWGQWfTvHzGwzcsPJBV">cmcnamee4@gmail.com</a>
+                <a className="text-[#517EE1] hover:unde" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNrcxCtVXGkjskcMWwzvBbSqrSksbhZhGkKXlrcxCgGstFBLfWqkWGQWfTvHzGwzcsPJBV">cmcnamee4@gmail.com</a>
             </section>
 
             <Logos></Logos>
