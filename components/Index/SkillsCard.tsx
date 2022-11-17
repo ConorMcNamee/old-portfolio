@@ -8,7 +8,7 @@ interface Props {
 export default function  SkillsCard({title, img}: Props) {
 
     return (
-        <article className="p-5 m-5 bg-theme shadow dark:bg-theme-dark">
+        <article className="p-5 m-5 bg-theme drop-shadow-3xl dark:bg-theme-dark">
             <div>
                 <div id='img'>
                     <Image

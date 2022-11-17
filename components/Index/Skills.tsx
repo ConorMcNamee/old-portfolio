@@ -16,6 +16,7 @@ export default function  Skills() {
                     <SkillsCard title="Django" img={'/django.png'}/>
                     <SkillsCard title="Web Design" img={'/web-design.png'}/>
                     <SkillsCard title="SEO" img={'/google.png'} />
+                    <SkillsCard title="SEO" img={'/next-js.png'} />
                 </div>
             </ul>
         </div>

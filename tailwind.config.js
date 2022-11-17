@@ -26,15 +26,16 @@ module.exports = {
     
     colors: {
       'theme': {
-        DEFAULT: '#F5F5F5',
+        DEFAULT: '#E3E3E3',
         dark: '#171717',
         gradientFrom: '#517EE1',
-        gradientTo: '#51BEE1'
+        gradientTo: '#51BEE1',
+        link: '#517EE1',
       }
     },
     extend: {
       dropShadow: {
-        '3xl': "5px 5px 0px 5px rgba(0,0,0, 1)",
+        '3xl': '0px 0px 5px rgba(0, 0, 0, 1)',
       }
     },
   },
