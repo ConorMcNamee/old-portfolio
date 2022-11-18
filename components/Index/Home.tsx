@@ -11,7 +11,7 @@ export default function  Home() {
                     <hr className="opacity-25 w-[75%]" />
                     <div className="text-2xl md:leading-loose p-5 m-5">
                         
-                        <h1>I am a Freelance <a href="/contact" className="text-theme-link">Full Stack Web</a> Developer</h1>
+                        <h1>I am a Freelance <Link href="/contact" className="text-theme-link">Full Stack Web</Link> Developer</h1>
                         <p>Frontend, Backend, Database, Deployment or SEO</p>
                         <p>Helping your business Save and Make Money</p>
                         
