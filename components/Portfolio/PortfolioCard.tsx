@@ -26,7 +26,7 @@ export default function PortfolioCard() {
 
 
     return (
-    <div className="h-screen flex flex-wrap flex-col justify-center items-center">
+    <div className="h-screen flex flex-col justify-center items-center">
       {
         PortfolioProjects.map((project:any, key) => (
           <div key={key} className="flex text-center items-center justify-center self-center bg-theme dark:bg-theme-dark drop-shadow-3xl m-5 p-10 w-[90%] lg:w-[50%]">
