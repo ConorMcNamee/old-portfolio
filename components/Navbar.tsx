@@ -35,7 +35,7 @@ export default function  Navbar() {
         }
 
     return (
-        <nav className="fixed bg-theme dark:bg-theme-dark w-full h-24 z-[10000] md:fixed">
+        <nav className="sticky top-0 bg-theme dark:bg-theme-dark w-full h-24 z-[10000]">
             <section className="flex w-full h-full p-5 justify-between">
                 <div className="p-5 flex h-full items-center">
                         {renderThemeChanger()}
@@ -57,6 +57,10 @@ export default function  Navbar() {
 
                         <Link href='/testimonials'>
                             <li className="px-5 ml-10 text-xl hover:border-b">Testimonials</li>
+                        </Link>
+
+                        <Link href='/services'>
+                            <li className="px-5 ml-10 text-xl hover:border-b">Products and Services</li>
                         </Link>
 
                         <Link href='/contact'>
