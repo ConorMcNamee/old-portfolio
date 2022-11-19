@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function  Home() {
 
     return (
-        <section id="home" className="flex md:h-screen md:w-screen items-center text-center md:text-left mt-32 lg:mt-0">
+        <section id="home" className="flex relative md:h-screen md:w-screen items-center text-center md:text-left mt-32 lg:mt-0">
             <div className="flex flex-col w-[100%] sm:justify-evenly sm:flex-row">
-                <header className="h-max flex flex-col">
+                <header className="h-max flex flex-col items-center">
                     <h2 className="text-5xl p-5 m-5">Hello, I&#39;m Conor</h2>
                     <hr className="opacity-25 w-[75%]" />
                     <div className="text-2xl md:leading-loose p-5 m-5">
