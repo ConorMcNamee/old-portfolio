@@ -23,7 +23,7 @@ export default function  Home() {
                     <div className="relative w-72 h-72 sm:h-96 sm:w-96">
                         <Image
                             className="drop-shadow-3xl"
-                            src={"/me2.jpg"}
+                            src={"/me2.webp"}
                             alt={"Freelance Full Stack Developer"}
                             layout={"fill"}                            
                         />

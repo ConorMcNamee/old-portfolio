@@ -11,12 +11,12 @@ export default function  Skills() {
                     <SkillsCard title="HTML" img={'/html.webp'} />
                     <SkillsCard title="CSS" img={'/css.webp'}/>
                     <SkillsCard title="Javascript" img={'/javascript.png'}/>
-                    <SkillsCard title="React" img={'/react.png'}/>
-                    <SkillsCard title="Tailwind" img={'/tailwind.png'}/>
-                    <SkillsCard title="Django" img={'/django.png'}/>
-                    <SkillsCard title="Web Design" img={'/web-design.png'}/>
-                    <SkillsCard title="SEO" img={'/google.png'} />
-                    <SkillsCard title="Next.js" img={'/next-js.png'} />
+                    <SkillsCard title="React" img={'/react.webp'}/>
+                    <SkillsCard title="Tailwind" img={'/tailwind.webp'}/>
+                    <SkillsCard title="Django" img={'/django.webp'}/>
+                    <SkillsCard title="Web Design" img={'/web-design.webp'}/>
+                    <SkillsCard title="SEO" img={'/google.webp'} />
+                    <SkillsCard title="Next.js" img={'/next-js.webp'} />
                 </div>
             </ul>
         </div>
