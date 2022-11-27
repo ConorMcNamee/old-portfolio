@@ -16,6 +16,9 @@ export default function Index() {
     <div className="overflow-x-hidden">
       <Head>
         <title>Full Stack Developer</title>
+        <meta charSet='utf-8'/>
+        <meta name='description' content='Experienced Freelance Full Stack Developer from Belfast UK.  ' />
+        <meta name='viewport' content='width=device-width' />
       </Head>
 
       <Sidebar />
