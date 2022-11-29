@@ -9,7 +9,7 @@ interface Props{
 export default function  Layout({ children }: Props) {
 
     return (
-        <main>
+        <main className="relative">
             { children }
 
             <div id="absolute-elements">

@@ -59,6 +59,10 @@ export default function  Navbar() {
                             <li className="px-5 ml-10 text-xl hover:border-b">Testimonials</li>
                         </Link>
 
+                        <Link href='/services'>
+                            <li className="px-5 ml-10 text-xl hover:border-b">Products and Services</li>
+                        </Link>
+
                         <Link href='/contact'>
                             <li className="px-5 ml-10 text-xl hover:border-b">Contact</li>
                         </Link>
