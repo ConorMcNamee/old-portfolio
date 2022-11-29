@@ -7,7 +7,7 @@ const PortfolioProjects = [
     {
       "title": "Potion.so",
       "desc": "This is a client I have been working with to develop a pomodoro timer widget that embeds into Notion.",
-      "img": "/potion-pomodoro.png",
+      "img": "/potion-pomodoro.webp",
       "link": "https://widgets.potion.so/widgets/pomodoro",
     },
     {
