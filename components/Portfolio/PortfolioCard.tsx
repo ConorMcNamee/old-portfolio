@@ -3,6 +3,8 @@ import Image from "next/image"
 
 import Link from "next/link"
 
+import { motion } from "framer-motion";
+
 const PortfolioProjects = [
     {
       "title": "Potion.so",
@@ -31,7 +33,11 @@ export default function PortfolioCard() {
 
 
     return (
-    <div className="relative flex flex-col justify-center items-center md:my-20">
+    <motion.div className="relative flex flex-col justify-center items-center md:my-20"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: .5 }}
+    >
       {
         PortfolioProjects.map((project:any, key) => (
           <div key={key} className="flex relative text-center items-center justify-center self-center bg-theme dark:bg-theme-dark drop-shadow-3xl m-5 p-10 w-[90%] lg:w-[50%]">
@@ -53,7 +59,7 @@ export default function PortfolioCard() {
           </div>
         ))
       }
-    </div>
+    </motion.div>
   )
 }
 
