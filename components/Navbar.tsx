@@ -35,9 +35,9 @@ export default function  Navbar() {
         }
 
     return (
-        <nav className=" bg-theme dark:bg-theme-dark w-full h-24 z-[10000]">
+        <nav className="relative bg-theme dark:bg-theme-dark w-full h-24 z-[10000]">
             <section className="flex w-full h-full p-5 justify-between">
-                <div className="p-5 flex h-full items-center">
+                <div className="p-5 flex h-full items-center z-[10000]">
                         {renderThemeChanger()}
                 </div>
 
