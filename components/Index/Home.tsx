@@ -15,7 +15,7 @@ export default function  Home() {
                 <header className="h-max flex flex-col ">
                     <h2 className="text-5xl p-5 m-5">Hello, I&#39;m Conor</h2>
                     <hr className="opacity-25 w-[75%]" />
-                    <div className="text-2xl md:leading-loose p-5 m-5">
+                    <div className="text-xl p-5 m-5 md:leading-loose md:text-2xl">
                         
                         <h1>I am a Freelance <Link href="/contact" className="text-theme-link">Full Stack Web</Link> Developer</h1>
                         <p>Frontend, Backend, Database, Deployment or SEO</p>
