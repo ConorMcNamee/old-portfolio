@@ -15,7 +15,8 @@ const PortfolioProjects = [
     {
       "title": "JosiahEPhotography",
       "desc": "I worked with this client to design and develop a website using Webflow and now I am managing his SEO for him",
-      "img": ""
+      "img": "",
+      "link": "https://www.josiahephotography.com"
     },
     {
       "title": "ByteLoop",

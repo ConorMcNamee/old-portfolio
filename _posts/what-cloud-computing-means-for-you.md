@@ -1,6 +1,5 @@
 ---
 title: 'What Cloud Computing Means For Your Business'
-slug: 'what-cloud-means-for-your-business'
 ---
 
 Cloud Computing is the latest and greatest in the tech world but what is the hype all about? What actually is the cloud and does it affect me? You may be thinking all of these things and maybe more and luckily for you I have the answers!
