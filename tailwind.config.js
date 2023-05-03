@@ -26,11 +26,13 @@ module.exports = {
     
     colors: {
       'theme': {
-        DEFAULT: '#E3E3E3',
-        dark: '#171717',
+        DEFAULT: '#053f5c',
+        dark: '#292929',
         gradientFrom: '#517EE1',
         gradientTo: '#51BEE1',
-        link: '#517EE1',
+        highlight: '#f27f0c',
+        textLight: '#fff',
+        textDark: '#fff',
       }
     },
     extend: {

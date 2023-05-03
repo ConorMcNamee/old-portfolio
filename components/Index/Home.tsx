@@ -13,16 +13,16 @@ export default function  Home() {
                         transition={{ delay: .5 }}
             >
                 <header className="h-max flex flex-col ">
-                    <h2 className="text-5xl p-5 m-5">Hello, I&#39;m Conor</h2>
+                    <h2 className="text-5xl p-5 m-5 text-theme-highlight">Hello, I&#39;m Conor</h2>
                     <hr className="opacity-25 w-[75%]" />
                     <div className="text-xl p-5 m-5 md:leading-loose md:text-2xl">
                         
-                        <h1>I am a Freelance <Link href="/contact" className="text-theme-link">Full Stack Web</Link> Developer</h1>
+                        <h1>I am a Freelance <Link href="/contact" className="text-theme-highlight">Full Stack Web</Link> Developer</h1>
                         <p>Frontend, Backend, Database, Deployment or SEO</p>
                         <p>Helping your business Save and Make Money</p>
                         
                     </div>
-                    <Link href="/contact" className="flex justify-center self-center p-5 m-10 bg-gradient-to-r from-theme-gradientFrom to-theme-gradientTo w-[50%] text-center text-theme"> Get in Touch</Link>
+                    <Link href="/contact" className="flex justify-center self-center p-5 m-10 bg-gradient-to-r bg-theme-highlight w-[50%] text-center"> Get in Touch</Link>
                 </header>
 
                 <div id="profile-picture" className="flex border-l-1 border- px-5 self-center lg:self-auto">

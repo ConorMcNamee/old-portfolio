@@ -22,7 +22,7 @@ export default function Index() {
       </Head>
 
       <Sidebar />
-      <section className=''>
+      <section>
         <Home />
         <About />
         <Skills />
