@@ -10,19 +10,18 @@ export default function  Home() {
             <motion.div className="flex flex-col w-[100%] sm:justify-evenly sm:flex-row"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        transition={{ delay: .5 }}
-            >
-                <header className="h-max flex flex-col ">
-                    <h2 className="text-5xl p-5 m-5 text-theme-highlight">Hello, I&#39;m Conor</h2>
+                        transition={{ delay: .5 }}>
+
+                <header className="h-max flex flex-col md:w-[40%] items-center">
+                    <h2 className="text-5xl md:text-7xl m-5 text-theme-highlight">Hello, I&#39;m Conor</h2>
                     <hr className="opacity-25 w-[75%]" />
-                    <div className="text-xl p-5 m-5 md:leading-loose md:text-2xl">
-                        
-                        <h1>I am a Freelance <Link href="/contact" className="text-theme-highlight">Full Stack Web</Link> Developer</h1>
-                        <p>Frontend, Backend, Database, Deployment or SEO</p>
-                        <p>Helping your business Save and Make Money</p>
-                        
+                    <div className="flex flex-col text-xl items-center text-center md:leading-loose md:text-2xl">
+          
+                        <h1><Link href="/contact" className="text-theme-highlight ">Full Stack Web and Cloud Developer</Link></h1>
+                        <p>Helping businesses create websitesdevelop software,
+                        operate in the cloud and increase their traffic through SEO</p>
+                        <Link id="button" href="/contact" className="flex justify-center self-center p-5 m-5 w-[30%]"> Get in Touch</Link>
                     </div>
-                    <Link href="/contact" className="flex justify-center self-center p-5 m-10 bg-gradient-to-r bg-theme-highlight w-[50%] text-center"> Get in Touch</Link>
                 </header>
 
                 <div id="profile-picture" className="flex border-l-1 border- px-5 self-center lg:self-auto">

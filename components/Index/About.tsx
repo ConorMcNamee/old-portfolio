@@ -27,7 +27,7 @@ export default function  About() {
 
                     <p>
                         Also capable of managing or creating your SEO Strategy If you would like to discuss 
-                        this in greater detail get <Link className="text-[#517EE1]" href="/contact">in contact</Link>
+                        this in greater detail get <Link className="text-theme-highlight" href="/contact">in contact</Link>
                     </p>
                 </div>
             </div>
