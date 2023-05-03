@@ -15,7 +15,7 @@ export default function  Home() {
                 <header className="h-max flex flex-col md:w-[40%] items-center">
                     <h2 className="text-5xl md:text-7xl m-5 text-theme-highlight">Hello, I&#39;m Conor</h2>
                     <hr className="opacity-25 w-[75%]" />
-                    <div className="flex flex-col text-xl items-center text-center md:leading-loose md:text-2xl">
+                    <div className="flex flex-col items-center text-center md:leading-loose">
           
                         <h1><Link href="/contact" className="text-theme-highlight ">Full Stack Web and Cloud Developer</Link></h1>
                         <p>Helping businesses create websitesdevelop software,
