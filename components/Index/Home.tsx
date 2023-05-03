@@ -20,7 +20,7 @@ export default function  Home() {
                         <h1><Link href="/contact" className="text-theme-highlight ">Full Stack Web and Cloud Developer</Link></h1>
                         <p>Helping businesses create websitesdevelop software,
                         operate in the cloud and increase their traffic through SEO</p>
-                        <Link id="button" href="/contact" className="flex justify-center self-center p-5 m-5 w-[30%]"> Get in Touch</Link>
+                        <Link id="button" href="/contact" className="flex justify-center self-center p-5 m-5 md:w-[30%]"> Get in Touch</Link>
                     </div>
                 </header>
 
