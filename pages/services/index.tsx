@@ -1,5 +1,4 @@
 import Service from "../../components/Services/Service"
-import Product from "../../components/Services/Product"
 
 import { motion } from "framer-motion";
 
@@ -10,17 +9,20 @@ export default function ServiceList() {
             animate={{ opacity: 1 }}
             transition={{ delay: .5 }}
         >
-            <div className="flex flex-col text-center items-center">
-                <h1 className="flex text-3xl p-5 m-5">Products and Services</h1>
-                <p className="flex text-xl opacity-75 p-5">A simple list of the services I provide to clients an a list of products I personally sell</p>
+            <div className="text-center">
+                <h1>Services</h1>
+                <p>Below is a list of services that I can provide</p>
             </div>
-
-            <h1 className="text-4xl font-medium">Products</h1>
-            <Product />
             
-
-            <h1 className="text-4xl font-medium">Services</h1>
-            <Service />
+            <div>
+                <Service title={"Group Coaching"} desc={"Group coaching and an invitation to an exclusive members discord community"} />
+                <Service title={"Landing Page Development"} desc={"Group coaching and an invitation to an exclusive members discord community"} />
+                <Service title={"Web App Development"} desc={"Group coaching and an invitation to an exclusive members discord community"} />
+                <Service title={"Cloud Deployment"} desc={"Group coaching and an invitation to an exclusive members discord community"} />
+                <Service title={"Cloud Management"} desc={"Group coaching and an invitation to an exclusive members discord community"} />
+                <Service title={"Web Scraping"} desc={"Group coaching and an invitation to an exclusive members discord community"} />
+                <Service title={"SEO Optimisation"} desc={"Group coaching and an invitation to an exclusive members discord community"} />
+            </div>
         </motion.section>
     );
 }

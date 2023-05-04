@@ -20,9 +20,10 @@ export default function  Skills() {
             <ul className="flex justify-center md:w-[60%]">
                 <div className="flex h-[100%] flex-col justify-evenly text-center">
                     <h1>Landing Page Development</h1>
+                    <h1>Group Coaching</h1>
                     <h1>Web App Development</h1>
                     <h1>Landing Page Development</h1>
-                    <h1>Cloud Development</h1>
+                    <h1>Cloud Deployment</h1>
                     <h1>Cloud Management</h1>
                     <h1>Web Scraping</h1>
                     <h1>SEO Optimisation</h1>
