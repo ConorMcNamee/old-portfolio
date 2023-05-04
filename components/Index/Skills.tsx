@@ -10,15 +10,15 @@ export default function  Skills() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: .5 }}>
-            <h2 className="flex text-2xl mt-10">What I can do for<h3 className="text-theme-highlight px-2">YOU</h3></h2>
+            <h2 className="flex text-5xl mt-10">What I can do for<h3 className="text-theme-highlight px-2">YOU</h3></h2>
             <p>There are many different services that I can provide that will add value to your business. Here are a few to list.</p>
             <p>
                 If you would like to know more about my expertise in these areas, visit the services page with the link below
                 Or get in touch. I&apos;d love to have a chat!
                 </p>
-            <Link href="/services" className="px-5 py-2 border rounded-3xl border-4 border-theme-highlight text-theme-highlight">Services</Link>
-            <ul className="flex flex-wrap wrap md:flex-col md:w-[60%]">
-                <div className="flex flex-col text-center flex-wrap justify-center">
+            <Link href="/services" className="px-5 py-2 rounded-3xl border-4 border-theme-highlight text-theme-highlight">Services</Link>
+            <ul className="flex justify-center md:w-[60%]">
+                <div className="flex h-[100%] flex-col justify-evenly text-center">
                     <h1>Landing Page Development</h1>
                     <h1>Web App Development</h1>
                     <h1>Landing Page Development</h1>
