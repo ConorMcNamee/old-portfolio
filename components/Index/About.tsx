@@ -16,7 +16,7 @@ export default function  About() {
                     <br />
 
                     <p>
-                    I started learning how to program when I was 11. Making simple HTML, CSS and Javascript web pages‍
+                    I started learning how to program when I was 11. Making simple HTML, CSS and Javascript web pages
                     </p>
 
                     <br />
@@ -32,13 +32,12 @@ export default function  About() {
                     </p>
                     <br />
                     <p>
-                        And over the past year I've been really beginning to become an expert on Cloud services like AWS and Google Cloud Platform
+                        And over the past year I&apos;ve been really beginning to become an expert on Cloud services like AWS and Google Cloud Platform
                     </p>
 
                     <br />
 
                     <p>
-                        
                         <Link className="text-theme-highlight" href="/contact">Get in touch</Link>
                     </p>
                 </div>
