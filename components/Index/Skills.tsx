@@ -10,9 +10,12 @@ export default function  Skills() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: .5 }}>
-            <h2 className="flex text-5xl mt-10">
-                What I can do for </h2>
-            <h2 className="text-theme-highlight px-2">YOU</h2>
+            <div className="flex text-6xl mt-10">
+                <h2 className="flex">
+                    What I can do for  
+                </h2>
+                <h2 className="flex text-theme-highlight px-4">YOU!</h2>
+            </div>
             <p>There are many different services that I can provide that will add value to your business. Here are a few to list.</p>
             <p>
                 If you would like to know more about my expertise in these areas, visit the services page with the link below

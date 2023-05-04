@@ -14,16 +14,19 @@ export default function Blog({ allPosts }:Props) {
                 {
                     allPosts.map((post, key) => (
                         <Link className="flex md:w-[50%] p-5 justify-center" key={key} href={"/blog/"+post.slug}>
-                            <div className="flex flex-col items-center text-center">
+                            <div className="flex flex-col">
                                 <Image
+                                className="flex self-center"
                                 alt={"Hello"}
                                 src={"/cover.webp"}
-                                width={300}
+                                width={500}
                                 height={150}
                                  />
 
-                                <h1 className="w-[50%]">{post.title}</h1>
-                                <p>{post.excerpt}</p>
+                                <div className="flex flex-col mt-5">
+                                    <h1 className="">{post.title}</h1>
+                                    <p>{post.excerpt}</p>
+                                </div>
                             </div>
                         </Link>
                     ))
