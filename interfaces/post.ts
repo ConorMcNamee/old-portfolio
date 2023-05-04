@@ -1,3 +1,4 @@
+
 type PostType = {
   slug: string
   title: string
