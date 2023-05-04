@@ -17,8 +17,8 @@ export default function  Skills() {
                 Or get in touch. I&apos;d love to have a chat!
                 </p>
             <Link href="/services" className="px-5 py-2 rounded-3xl border-4 border-theme-highlight text-theme-highlight">Services</Link>
-            <ul className="flex justify-center md:w-[60%]">
-                <div className="flex h-[100%] flex-col justify-evenly text-center">
+            <ul className="flex h-[100%] justify-center md:w-[60%]">
+                <div className="flex flex-col justify-evenly text-center">
                     <h1>Landing Page Development</h1>
                     <h1>Group Coaching</h1>
                     <h1>Web App Development</h1>
