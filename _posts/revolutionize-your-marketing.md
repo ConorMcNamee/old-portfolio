@@ -14,7 +14,8 @@ Marketing is a critial aspect of any businesses stategy, and especially in the m
 With the amount of information and data businesses must be fast paced and responsive and must be able to make sense of their data to make accurate decisions on their marketing strategies. This is why businesses are turning to the cloud to get ahead.  
 
 Cloud technology provides business with the flexibility, scalability and cost-effectiveness making it the perfect solution for marketing
-By the end of this article, you will have a clear understanding of how cloud technology can help you take your marketing efforts to the next level.
+
+By the end of this article, you will how cloud technology can help you take your marketing efforts to the next level.
 
 # How Can Cloud Computing Revolutionize Your Marketing?
 
@@ -48,11 +49,11 @@ __Coca-Cola__: Coca-Cola is a global beverage company that sells more than 1.9 b
 
 These are just a few examples of how cloud computing can revolutionize marketing. By leveraging the power of cloud-based tools and applications, businesses can gain valuable insights into customer behavior and preferences, leading to more effective marketing campaigns and increased customer engagement and loyalty. 
 
-__Data Security__: One of the biggest concerns with cloud computing is data security. When storing data in the cloud, there is always a risk of data breaches, hacks, or other security issues. It's important to choose a cloud computing provider that offers strong security measures, such as encryption, firewalls, and multi-factor authentication. 
+__Data Security__: One of the biggest concerns with cloud computing is data security. When storing data in the cloud, there is always a risk of data breaches, hacks, or other security issues. Choosing a cloud computing provider that offers strong security measures, such as encryption, firewalls, and multi-factor authentication is a good way to protect your data. 
 
-__Data Integration__: When implementing cloud computing for marketing, it's important to ensure that all your data sources are integrated and can communicate with each other. This can be a complex process, especially if you have a large amount of data and different data sources. 
+__Data Integration__: When implementing cloud computing for marketing, it's essential to ensure that all your data sources are integrated and can communicate with each other. This can be a complex process, especially if you have a large amount of data and different data sources. 
 
-__Talent and Training__: Implementing cloud computing for marketing requires skilled professionals who are knowledgeable about the technology and how to use it effectively. It's important to invest in talent and training to ensure your team can fully leverage the benefits of cloud computing. 
+__Talent and Training__: Implementing cloud computing for marketing requires skilled professionals who are knowledgeable about the technology and how to use it effectively. Invest in talent and training to ensure your team can fully leverage the benefits of cloud computing. 
 
 __Vendor Lock-In__: When choosing a cloud computing provider, it's important to consider the possibility of vendor lock-in. Vendor lock-in occurs when a company becomes dependent on a specific cloud provider and is unable to easily switch to a different provider. This can limit flexibility and potentially increase costs in the long term. 
 
