@@ -18,15 +18,18 @@ export default function Blog({ allPosts }:Props) {
                                 <Image
                                 className="flex self-center"
                                 alt={"Hello"}
-                                src={"/cover.webp"}
+                                src={post.coverImage}
                                 width={500}
                                 height={150}
                                  />
 
-                                <div className="flex flex-col mt-5">
-                                    <h1 className="">{post.title}</h1>
-                                    <p>{post.excerpt}</p>
-                                </div>
+                                <Link href={"/blog/"+post.slug}>
+                                    <div className="flex flex-col mt-5">
+                                        <h1 className="">{post.title}</h1>
+                                        <p className="text-sm">{post.date}</p>
+                                        <p>{post.excerpt}</p>
+                                    </div>
+                                </Link>
                             </div>
                         </Link>
                     ))
