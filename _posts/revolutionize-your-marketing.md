@@ -15,7 +15,7 @@ With the amount of information and data businesses must be fast paced and respon
 
 Cloud technology provides business with the flexibility, scalability and cost-effectiveness making it the perfect solution for marketing
 
-By the end of this article, you will how cloud technology can help you take your marketing efforts to the next level.
+By the end of this article, you will know how cloud technology can help you take your marketing efforts to the next level.
 
 # How Can Cloud Computing Revolutionize Your Marketing?
 
