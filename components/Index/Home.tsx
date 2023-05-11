@@ -17,10 +17,11 @@ export default function  Home() {
                     <hr className="opacity-25 w-[75%]" />
                     <div className="flex flex-col items-center text-center md:leading-loose">
           
-                        <h1><Link href="/contact" className="text-theme-highlight ">Full Stack Web and Cloud Developer</Link></h1>
-                        <p>Helping businesses create websitesdevelop software,
-                        operate in the cloud and increase their traffic through SEO</p>
-                        <Link id="button" href="/contact" className="flex justify-center self-center p-5 m-5 md:w-[30%]"> Get in Touch</Link>
+                        <h1><Link href="/contact" className="text-theme-highlight ">Full Stack Web Developer and Cloud Developer</Link></h1>
+                        <p>Helping businesses increase their revenue and increasing their
+                            traffic with Web Design, Web Development, SEO and Cloud Deployment
+                        </p>
+                        <Link id="button" href="/contact" className="flex justify-center self-center p-5 m-5 md:w-[30%] rounded-xl"> Get in Touch</Link>
                     </div>
                 </header>
 
