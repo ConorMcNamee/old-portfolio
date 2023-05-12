@@ -19,13 +19,13 @@ export default function Testimonials() {
                 </div>
 
             <p className="md:w-[60%] text-center">
-            "Conor the web developer, 
+            &ldquo;Conor the web developer, 
             Working with him has truly been a pleasure. 
             Consistent, reliable, outstanding workmanship, 
             and dedicated to completion of tasks. 
             He has been a partner in the creation, management, 
             and general upkeep of my photography website for quite a while now. 
-            And I can truly say he has sealed a lifetime partnership with me. " - Josiah
+            And I can truly say he has sealed a lifetime partnership with me.&ldquo; - Josiah
             </p>
 
             
@@ -36,7 +36,7 @@ export default function Testimonials() {
                     who I have provided results for!
                 </h3>
 
-                <Link href="/contact" id="button" className="w-52 rounded-xl px-6 py-4">Get in Touch</Link>
+                <Link to="/contact" id="button" className="w-52 rounded-xl px-6 py-4">Get in Touch</Link>
             </div>
         </div>
     );
